@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%; /* Aydınlık temada daha koyu bir yazı rengi */
+    --card: 0 0% 98%; /* Kartların açık arka plan rengi */
+    --card-foreground: 0 0% 10%; /* Kartların yazı rengi */
+    --popover: 0 0% 98%; /* Popover açık arka plan rengi */
+    --popover-foreground: 0 0% 10%; /* Popover yazı rengi */
+    --primary: 0 0% 15%; /* Daha koyu bir birincil renk */
+    --primary-foreground: 0 0% 95%; /* Daha açık bir yazı rengi */
+    --secondary: 0 0% 85%; /* Daha nötr bir renk */
+    --secondary-foreground: 0 0% 10%;
+    --muted: 0 0% 90%; /* Daha koyu muted rengi */
+    --muted-foreground: 0 0% 20%;
+    --accent: 0 0% 70%; /* Accent rengi */
+    --accent-foreground: 0 0% 10%; /* Accent yazı rengi */
+    --destructive: 0 84.2% 50%; /* Daha koyu kırmızı destructive */
+    --destructive-foreground: 0 0% 90%; /* Destructive yazı rengi */
+    --border: 0 0% 80%; /* Daha koyu border rengi */
+    --input: 0 0% 85%; /* Daha koyu input arka planı */
+    --ring: 0 0% 10%; /* Daha koyu bir ring rengi */
+    --chart-1: 0 0% 20%; /* Daha koyu grafik rengi */
+    --chart-2: 0 0% 30%;
+    --chart-3: 0 0% 40%;
+    --chart-4: 0 0% 50%;
+    --chart-5: 0 0% 60%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 10%; /* Daha koyu bir arka plan rengi */
+    --foreground: 0 0% 90%; /* Daha açık bir yazı rengi */
+    --card: 0 0% 15%; /* Kartların daha koyu arka plan rengi */
+    --card-foreground: 0 0% 90%; /* Kartların yazı rengi */
+    --popover: 0 0% 15%; /* Popover arka plan rengi */
+    --popover-foreground: 0 0% 90%; /* Popover yazı rengi */
+    --primary: 0 0% 90%; /* Birincil yazı rengi */
+    --primary-foreground: 0 0% 10%; /* Birincil arka plan rengi */
+    --secondary: 0 0% 70%; /* İkincil yazı rengi */
+    --secondary-foreground: 0 0% 90%; /* İkincil arka plan rengi */
+    --muted: 0 0% 50%; /* Daha koyu muted rengi */
+    --muted-foreground: 0 0% 90%; /* Muted yazı rengi */
+    --accent: 0 0% 70%; /* Accent rengi */
+    --accent-foreground: 0 0% 90%; /* Accent yazı rengi */
+    --destructive: 0 84.2% 60.2%; /* Destructive rengi */
+    --destructive-foreground: 0 0% 90%; /* Destructive yazı rengi */
+    --border: 0 0% 20%; /* Daha koyu border rengi */
+    --input: 0 0% 20%; /* Daha koyu input rengi */
+    --ring: 0 0% 30%; /* Daha koyu ring rengi */
+    --chart-1: 0 0% 40%; /* Grafik renkleri nötrleştirildi */
+    --chart-2: 0 0% 50%;
+    --chart-3: 0 0% 60%;
+    --chart-4: 0 0% 70%;
+    --chart-5: 0 0% 80%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 20s linear infinite; /* 20 saniyede bir tur tamamlanır */
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "Kahvaltı": [
+    {
+      "id": 1,
+      "mealTime": "Kahvaltı",
+      "items": [
+        {
+          "name": "Menemen",
+          "recipe": "Domatesleri rendeleyin, çekirdeklerini ayırın. Yeşil biberleri küçük halkalar şeklinde doğrayın. Bir tavada zeytinyağını kızdırın ve biberleri 3-4 dakika soteleyin. Rendelediğiniz domatesleri ekleyin, tuz ve karabiber ile tatlandırarak yaklaşık 5-7 dakika pişirin. Domatesler suyunu çekmeye başladığında çırpılmış yumurtaları ekleyin ve karıştırarak pişirin. Taze maydanoz yapraklarıyla süsleyerek sıcak servis edin."
+        },
+        {
+          "name": "Peynir",
+          "recipe": "Taze beyaz peyniri küp veya dilim şeklinde kesin. Yanına dilimlenmiş domates, salatalık ve taze yeşilliklerle servis edin. Sunumu zenginleştirmek için üzerine birkaç damla zeytinyağı gezdirip kekik serpebilirsiniz."
+        },
+        {
+          "name": "Zeytin",
+          "recipe": "Doğal siyah ve yeşil zeytinleri bir kaseye alın. İsteğe bağlı olarak üzerine zeytinyağı gezdirin, kuru kekik veya pul biber serpiştirin. Zeytinlerin çekirdeklerini çıkartarak çocuklar için kolay tüketilebilir hale getirebilirsiniz."
+        },
+        {
+          "name": "Reçel",
+          "recipe": "Farklı çeşitlerde reçeller (çilek, kayısı, vişne vb.) için küçük kaselere koyarak sunum yapın. Reçelleri taze ekmek dilimleri veya tereyağı ile birlikte servis edebilirsiniz. Tatlı ve tuzlu lezzetler arasında denge kurabilirsiniz."
+        },
+        {
+          "name": "Çay",
+          "recipe": "Bir çaydanlıkta suyu kaynatın. Üst demliğe 2-3 yemek kaşığı siyah çay ekleyin ve üzerine kaynar su dökün. Alt demliği orta ateşte tutarak çayı yaklaşık 10-15 dakika demleyin. Demlenen çayı bardağa koyarken sıcak su ile karıştırarak arzu edilen yoğunlukta servis edin."
+        }
+      ],
+      "image": "/breakfast.jpg"
+    }
+  ],
+  "Öğle Yemeği": [
+    {
+      "id": 2,
+      "mealTime": "Öğle Yemeği",
+      "items": [
+        {
+          "name": "Mercimek Çorbası",
+          "recipe": "1 su bardağı kırmızı mercimeği bol su ile yıkayın. Tencereye mercimeği, 1 adet doğranmış soğanı, 1 adet doğranmış havucu ve 1 adet patatesi koyarak üzerini 2-3 parmak geçecek kadar su ekleyin. Kaynadıktan sonra altını kısarak mercimekler iyice yumuşayana kadar pişirin. Pişen karışımı blenderdan geçirerek pürüzsüz bir kıvam elde edin. 2 yemek kaşığı tereyağında 1 tatlı kaşığı toz kırmızı biberi kızdırıp çorbanın üzerine dökün. Sıcak servis edin."
+        },
+        {
+          "name": "Tavuk Sote",
+          "recipe": "500 gram tavuk göğsünü kuşbaşı doğrayın. 2 yemek kaşığı zeytinyağını tavada ısıtın, tavukları ekleyerek rengi dönene kadar kavurun. 1 adet soğan, 2 diş sarımsak, 1 adet kırmızı kapya biber ve 1 adet yeşil biberi doğrayıp ekleyin. Sebzeler yumuşayınca 2 yemek kaşığı domates salçasını ekleyin ve karıştırın. Tuz, karabiber, kekik ve pul biber ile tatlandırın. 1 çay bardağı sıcak su ekleyip kısık ateşte 10 dakika pişirin. Yanında pirinç pilavı ile servis edin."
+        },
+        {
+          "name": "Pirinç Pilavı",
+          "recipe": "1 su bardağı pirinci bol su ile yıkayıp süzün. Tencerede 2 yemek kaşığı tereyağını eritip 1 yemek kaşığı sıvı yağ ekleyin. 1 su bardağı pirinci ekleyip şeffaflaşana kadar kavurun. 1,5 su bardağı sıcak su veya tavuk suyu ekleyin, tuz ekleyerek karıştırın. Tencerenin kapağını kapatarak kısık ateşte suyunu çekene kadar pişirin. Pilavı 10 dakika demlenmeye bırakın ve sıcak servis edin."
+        },
+        {
+          "name": "Ayran",
+          "recipe": "2 su bardağı yoğurdu derin bir kaseye alın. Üzerine 1 su bardağı soğuk su ekleyin ve çırpıcı veya blender ile iyice karıştırın. Tuz miktarını damak zevkinize göre ayarlayın. Ayranı bardaklara doldurup soğuk olarak servis edin. İsteğe bağlı olarak üzerine nane veya dereotu ekleyebilirsiniz."
+        }
+      ],
+      "image": "/lunch.jpg"
+    }
+  ],
+  "Akşam Yemeği": [
+    {
+      "id": 3,
+      "mealTime": "Akşam Yemeği",
+      "items": [
+        {
+          "name": "Kuru Fasulye",
+          "recipe": "2 su bardağı kuru fasulyeyi bir gece önceden suya koyarak ıslatın. Ertesi gün suyunu süzüp tencereye alın ve 10-15 dakika kadar haşlayarak yumuşatın. Ayrı bir tencerede 2 yemek kaşığı sıvı yağ ve 1 yemek kaşığı tereyağını ısıtın. 1 adet ince doğranmış soğanı kavurun, ardından 200 gram kuşbaşı doğranmış eti ekleyin ve suyunu çekene kadar kavurun. 1 yemek kaşığı domates salçasını ve 1 tatlı kaşığı biber salçasını ekleyip karıştırın. Haşlanmış fasulyeleri tencereye ekleyip üzerini geçecek kadar sıcak su ilave edin. Tuz, karabiber, pul biber ve 1 çay kaşığı kimyon ekleyerek kısık ateşte 30-40 dakika pişirin. Yanında bulgur pilavı ile servis edin."
+        },
+        {
+          "name": "Bulgur Pilavı",
+          "recipe": "1 su bardağı pilavlık bulguru yıkayıp süzün. Tencereye 2 yemek kaşığı tereyağı ve 1 yemek kaşığı sıvı yağ koyarak ısıtın. 1 adet ince doğranmış soğanı kavurun, ardından 1 adet doğranmış yeşil biber ve 1 yemek kaşığı domates salçasını ekleyip kavurmaya devam edin. Bulguru tencereye ekleyin ve 2-3 dakika kavurun. 2 su bardağı sıcak suyu ve tuzu ekleyip karıştırın. Kapağını kapatarak kısık ateşte suyunu çekene kadar pişirin. Piştikten sonra 10 dakika demlenmeye bırakın ve sıcak servis edin."
+        },
+        {
+          "name": "Turşu",
+          "recipe": "Ev yapımı veya hazır turşuları servis tabağına alın. Lahana, salatalık veya biber turşusu gibi çeşitlerden oluşan bir karışım hazırlayabilirsiniz. Yemeğin yanında damak temizleyici bir lezzet olarak sunabilirsiniz."
+        },
+        {
+          "name": "Şalgam",
+          "recipe": "Hazır şalgam suyunu bir sürahiye doldurup soğutun. Bardaklara servis ederken isteğe bağlı olarak içerisine birkaç dilim turşu ekleyebilirsiniz. Acılı veya acısız tercih edebilirsiniz. Şalgamı yemekle birlikte servis edin."
+        }
+      ],
+      "image": "/dinner.jpg"
+    }
+  ]
+}

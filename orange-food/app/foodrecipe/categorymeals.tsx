@@ -16,8 +16,6 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { useCategory } from "./CategoryContext";
-import Link from "next/link";
-import Image from "next/image";
 
 interface Recipe {
   ingredients: string[];
@@ -46,7 +44,7 @@ const CategoryMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       try {
-        const response = await fetch("http://localhost:8080/api/foodrecipe");
+        const response = await fetch("/api/food-recipe-api");
         if (!response.ok) {
           throw new Error("Veriler yüklenirken bir hata oluştu.");
         }
@@ -112,34 +110,35 @@ const CategoryMeals = () => {
         {selectedCategory} Tarifleri
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {meals![selectedCategory]?.map((meal) => (
-          <Card
-            key={meal.id}
-            className="bg-card text-card-foreground border border-border"
-          >
-            <CardHeader>
-              <img
-                src={meal.image}
-                alt={meal.name}
-                className="w-full h-max object-cover rounded-t-md"
-              />
-            </CardHeader>
-            <CardContent>
-              <h3 className="text-lg font-semibold text-center mb-4">
-                {meal.name}
-              </h3>
-            </CardContent>
-            <CardFooter>
-              <Button
-                variant="outline"
-                className="w-full"
-                onClick={() => openDialog(meal)}
-              >
-                Tarif Detayları
-              </Button>
-            </CardFooter>
-          </Card>
-        ))}
+        {meals &&
+          meals[selectedCategory]?.map((meal) => (
+            <Card
+              key={meal.id}
+              className="bg-card text-card-foreground border border-border"
+            >
+              <CardHeader>
+                <img
+                  src={meal.image}
+                  alt={meal.name}
+                  className="w-full h-48 object-cover rounded-t-md"
+                />
+              </CardHeader>
+              <CardContent>
+                <h3 className="text-lg font-semibold text-center mb-4">
+                  {meal.name}
+                </h3>
+              </CardContent>
+              <CardFooter>
+                <Button
+                  variant="outline"
+                  className="w-full"
+                  onClick={() => openDialog(meal)}
+                >
+                  Tarif Detayları
+                </Button>
+              </CardFooter>
+            </Card>
+          ))}
       </div>
 
       {isDialogOpen && selectedMeal && (

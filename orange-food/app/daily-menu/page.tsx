@@ -34,7 +34,7 @@ const DailyMenuComponent: React.FC = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       try {
-        const response = await fetch("http://localhost:8080/api/daily-menu");
+        const response = await fetch("/api/daily-menu-api");
         if (!response.ok) {
           throw new Error("Veriler yüklenirken bir hata oluştu.");
         }

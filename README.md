@@ -20,3 +20,12 @@ Bu projeyi yerel ortamınıza kurmak için aşağıdaki adımları takip edebili
 1. **Depoyu Klonlayın**:
    ```bash
    git clone https://github.com/kullanici-adi/proje-adi.git
+
+##Web sitesine gitmek için: 
+-  https://orange-food-vercel.vercel.app/
+
+-  ![image](https://github.com/user-attachments/assets/b47485db-bd6c-4428-9068-aae0064cdd66)
+
+-  ![image](https://github.com/user-attachments/assets/d1674e88-4926-4525-a3e1-5919cd18ab7e)
+
+- ![image](https://github.com/user-attachments/assets/283189a2-c6da-4a40-b72b-a2a111a17288)
